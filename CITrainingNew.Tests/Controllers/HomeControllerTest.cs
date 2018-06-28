@@ -37,7 +37,7 @@ namespace CITrainingNew.Tests.Controllers
 
 
             // Assert
-            Assert.AreEqual("Your application description page here.", result.ViewBag.Message);
+            Assert.AreEqual("Your application description page", result.ViewBag.Message);
         }
 
         [TestMethod]
